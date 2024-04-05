@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.922);
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+button {
+    width: 30%;
+    height: 100%;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #2cfb08;
+    color: #fff;
+}
+span {
+    text-align: center;
+}
+.button__value__counter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    height: 40px;
+}
+.reset {
+    width: 120px;
+    height: 40px;
+}
